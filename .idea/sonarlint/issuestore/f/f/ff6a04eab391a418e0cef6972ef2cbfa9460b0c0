@@ -1,0 +1,17 @@
+
+b
+java:S1192+"GDefine a constant instead of duplicating this literal "Freddy" 3 times.(¥ÅÙ¬ûÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(“»Ó¦şÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Û°–Äüÿÿÿÿ8¶ò»“¡.
+\
+java:S1161":Add the "@Override" annotation above this method signature(ÈÀòùÿÿÿÿ8¶ò»“¡.
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(ß£ ¸ûÿÿÿÿ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(æâ— 
+Q	java:S125#"<This block of commented-out lines of code should be removed.(Ç·æ‚
+U	java:S106"9Replace this use of System.out or System.err by a logger.(§†õª8ÕÌ¾“¡.
+U	java:S1063"9Replace this use of System.out or System.err by a logger.(›¦ô8¡ø·“¡.
+U	java:S106
+"9Replace this use of System.out or System.err by a logger.(û‹¶’8¤»“¡.
+N	java:S106'"9Replace this use of System.out or System.err by a logger.(§——’
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(ìú¡„øÿÿÿÿ
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(Ïª§ã

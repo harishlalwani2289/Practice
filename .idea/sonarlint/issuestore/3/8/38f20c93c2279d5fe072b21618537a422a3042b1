@@ -1,0 +1,8 @@
+
+a
+java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ÇâŞáøÿÿÿÿ
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(˜©ÿó
+U
+java:S1161":Add the "@Override" annotation above this method signature(ÿŸ¾Ğüÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(Ëõƒ.
+C	java:S108")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ

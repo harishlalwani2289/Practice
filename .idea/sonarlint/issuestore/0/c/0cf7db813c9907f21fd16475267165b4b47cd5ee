@@ -1,0 +1,9 @@
+
+\
+java:S22596"FA "NullPointerException" could be thrown; "previous" is nullable here.(•âô„
+‘
+java:S1319,"vThe type of the "linkedList" object should be an interface such as "List" rather than the implementation "LinkedList".(¨Î²·þÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Éšÿèúÿÿÿÿ
+P
+java:S1144"5Remove this unused private "removeDuplicates" method.(©á¬¨øÿÿÿÿ
+P	java:S125"<This block of commented-out lines of code should be removed.(“â

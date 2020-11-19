@@ -1,0 +1,8 @@
+
+\
+java:S1854":Remove this useless assignment to local variable "output".(Øâÿøýÿÿÿÿ8º²‹‹Ü.
+X	java:S125	"<This block of commented-out lines of code should be removed.( Ò‹À8º²‹‹Ü.
+U	java:S106!"9Replace this use of System.out or System.err by a logger.(¢àóÄ8ƒ’Ž‰Ü.
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¢àóÄ8¡Õ„‹Ü.
+M
+java:S1481"+Remove this unused "output" local variable.(Øâÿøýÿÿÿÿ8º²‹‹Ü.

@@ -1,0 +1,527 @@
+//Pakistan Team Players
+//Asad Shafiq, Azhar Ali (c), Haris Sohail, Babar Azam, Mohammad Rizwan (wk), Shan Masood, Usman Shinwari, Abid Ali,
+// Mohammad Abbas , Shaheen Afridi, Naseem Shah
+availablePlayers.add(new Player("Masood", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1,1));
+//availablePlayers.add(new Player("Imam", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Abid", PlayerType.BATSMAN, 8.0, TeamNumber.TEAM1,2));
+availablePlayers.add(new Player("Azhar", PlayerType.ALLROUNDER, 9.5, TeamNumber.TEAM1,3));
+availablePlayers.add(new Player("Babar Azam", PlayerType.BATSMAN, 11.0, TeamNumber.TEAM1,4));
+availablePlayers.add(new Player("Asad Shafiq", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM1));
+//availablePlayers.add(new Player("Fawad", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Rizwan", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM1));
+//availablePlayers.add(new Player("Yasir", PlayerType.BOWLER, 9.5, TeamNumber.TEAM1));
+//availablePlayers.add(new Player("Bhatti", PlayerType.ALLROUNDER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Haris Sohail", PlayerType.ALLROUNDER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Mohammad Abbas", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Shaheen", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Usman Shinwari", PlayerType.BOWLER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Naseem Shah", PlayerType.BOWLER, 8.0, TeamNumber.TEAM1));
+
+
+//Sri Lanka Team Players
+// Dilruwan Perera, Angelo Mathews, Dinesh Chandimal, Dhananjaya de Silva, Niroshan Dickwella (wk), Dimuth Karunaratne (c),
+// Vishwa Fernando, Kusal Mendis, Kasun Rajitha, Lahiru Kumara, Oshada Fernando
+availablePlayers.add(new Player("Dickwella", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("D Karunaratne", PlayerType.BATSMAN, 10., TeamNumber.TEAM2,1));
+availablePlayers.add(new Player("Kusal Mendis", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM2,3));
+availablePlayers.add(new Player("Chandimal", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Oshada Fernando", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM2,2));
+//availablePlayers.add(new Player("Thirimane", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Mathews", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM2,4));
+//availablePlayers.add(new Player("Kusal Parera", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Dhananjay De silva", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Dilruwan", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM2));
+//availablePlayers.add(new Player("Embuldeniya", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Vishwa", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Lahiru Kumara", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Kasun Rajitha", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+
+
+//ScotLand Team Players
+availablePlayers.add(new Player("Coetzer", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("M Jones", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Munsey", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Budge", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("McLeod", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Berrington", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Mathew Cross", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("S Sharif", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("M Watt", PlayerType.BOWLER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("A Evans", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("H Tahir", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("J Davey", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+
+
+//UAE Team Players
+availablePlayers.add(new Player("V Arvind", PlayerType.WICKET_KEEPER, 8.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("M Usman", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("C Suri", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("D Desilva", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Chunda Rizwan", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("R Mustafa", PlayerType.ALLROUNDER, 10.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("W Ahmed", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("B Hameed", PlayerType.ALLROUNDER, 8.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("A Raza", PlayerType.BOWLER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("J Siddique", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Z Khan", PlayerType.BOWLER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Meiyappan", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+
+
+//Chattogram Challengers Team Players BPL
+// Chadwick Walton, Avishka Fernando, Imrul Kayes, Mahmudullah (C), Nasir Hossain, Ryan Burl, Nurul Hasan (WK),
+// Muktar Ali, Rubel Hossain, Kesrick Williams, Mehedi Hasan Rana.
+//Bench – Enamul Haque jnr, Lendl Simmons, Rayad Emrit, Junaid Siddique, Nasum Ahmed , Jubair Hossain, Imad Wasim, Pinak Ghosh, Muhammad Musa.
+availablePlayers.add(new Player("Imrul Kayes", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM1,3));
+//availablePlayers.add(new Player("Junaid Siddique", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Avishka Fernando", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM1,1));
+availablePlayers.add(new Player("Chadwick Walton", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM1,2));
+availablePlayers.add(new Player("Rayan Burl", PlayerType.ALLROUNDER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Nasir Hussain", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Mahmudullah", PlayerType.ALLROUNDER, 9.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Nurul HAsan", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM1));
+//availablePlayers.add(new Player("R Emrit", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Muktar Ali", PlayerType.ALLROUNDER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Rubel Hussain", PlayerType.BOWLER, 9.5, TeamNumber.TEAM1));
+//availablePlayers.add(new Player("J Hussain", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+//availablePlayers.add(new Player("Enamuel HAque Jr", PlayerType.ALLROUNDER, 8.0, TeamNumber.TEAM1));
+//availablePlayers.add(new Player("Nasum Ahmed", PlayerType.BOWLER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Kesrick Williams", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Mehedi Hasan Rana", PlayerType.BOWLER, 8.0, TeamNumber.TEAM1));
+
+
+//Sylhet Thunders BPL
+// Rony Talukdar, Andre Fletcher, Johnson Charles, Mohammad Mithun (WK), Shafiqullah Shafiq, Mosaddek Hossain (C),
+// Nayeem Hasan, Delwar Hossain, Krishmar Santokie, Nazmul Islam, Ebadot Hossain.
+//Bench – Mohammad Sami, Jeevan Mendis, Sohag Gazi, Nazmul Hossain Milon, Monir Hossain, Naveen-ul-Haq, Abdul Mazid, Sherfane Rutherford, Ruyel Miah.
+availablePlayers.add(new Player("Johnson Charles", PlayerType.BATSMAN, 10.0, TeamNumber.TEAM2,2));
+availablePlayers.add(new Player("Andre Fletcher", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM2,1));
+availablePlayers.add(new Player("Rony Talukdar", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM2,3));
+availablePlayers.add(new Player("Mohammad Mithun", PlayerType.WICKET_KEEPER, 9.0, TeamNumber.TEAM2,4));
+availablePlayers.add(new Player("Shafiqullah Shafiq", PlayerType.WICKET_KEEPER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Mossaddek Hussain", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM2));
+//availablePlayers.add(new Player("J Mendis", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("K Santokie", PlayerType.BOWLER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Nayeem Hasan", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Nazmul Islam", PlayerType.BOWLER, 8.0, TeamNumber.TEAM2));
+//availablePlayers.add(new Player("M Sami", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Ebadot Hossain", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+//availablePlayers.add(new Player("S Gazi", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM2));
+//availablePlayers.add(new Player("Naveen ul Haq", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Delwar Hossain", PlayerType.BOWLER, 8.0, TeamNumber.TEAM2));
+//availablePlayers.add(new Player("S Cottrell", PlayerType.BOWLER, 9.0, TeamNumber.TEAM2));
+//availablePlayers.add(new Player("Nazmul Hossain Milon", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM2));
+
+//Cumilla Warriors Team Players BPL
+// Malan, Sarkar, Ali, Rajapaksa, Ankon, Sabbir, Shanaka, Sunzamul, Mujeeb, Hider and Al-Amin.
+availablePlayers.add(new Player("David Malan", PlayerType.BATSMAN, 10.0, TeamNumber.TEAM1,1));
+availablePlayers.add(new Player("Soumya Sarkar", PlayerType.ALLROUNDER, 10.0, TeamNumber.TEAM1,2));
+availablePlayers.add(new Player("Bhanuka Rajpaksha", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1,3));
+availablePlayers.add(new Player("Sabbir Rehman", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Abu Haider Rony", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Yasir Ali", PlayerType.BATSMAN, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Mahidul Islam Ankon", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Sunzamul Islam", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Dasun Shanaka", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM1,4));
+availablePlayers.add(new Player("Mujeeb Rehman", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+//availablePlayers.add(new Player("Oshane Thomas", PlayerType.BOWLER, 9.0, TeamNumber.TEAM2));
+//availablePlayers.add(new Player("A Hider", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Al Amin Hossain", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+
+
+//Rangpur Rangers Team Players BPL
+// Shahzad, Naim, Hasan, Abell, Nabi, Gregory, Fazle, Nadif, Rishad, Taskin and Mustafizur.
+availablePlayers.add(new Player("M Shahzad", PlayerType.WICKET_KEEPER, 9.0, TeamNumber.TEAM2,1));
+availablePlayers.add(new Player("M Naim Sheikh", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM2,2));
+availablePlayers.add(new Player("Jahurul Islam", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Zakir HAsan", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("T Abell", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM2,4));
+availablePlayers.add(new Player("Fazle Mahmud", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Nadif Choudhary", PlayerType.BATSMAN, 8.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("M Nabi", PlayerType.ALLROUNDER, 10.0, TeamNumber.TEAM2,3));
+availablePlayers.add(new Player("L Gregory", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Mustafizur Rehman", PlayerType.BOWLER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Taskin Ahmed", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Rishad Hossain", PlayerType.BOWLER, 8.0, TeamNumber.TEAM2));
+//availablePlayers.add(new Player("Junaid Khan", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+//availablePlayers.add(new Player("Sanjit Saha", PlayerType.BOWLER, 8.0, TeamNumber.TEAM2));
+
+//Dhaka Platoon Team Players BPL
+//Tamim Iqbal, Anamul Haque Bijoy (wk), Mominul Haque Showrabh, Laurie Evans, Raqibul Hasan, Shahid Afridi,
+//Ariful Haque, Shuvagata Hom, Mashrafe Mortaza (C), Shadab Khan, Thisara Perera/Wahab Riaz
+availablePlayers.add(new Player("Tamim Iqbal", PlayerType.BATSMAN, 10.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Anamul Haque Bijoy (wk)", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("J Ali", PlayerType.WICKET_KEEPER, 8.0, TeamNumber.TEAM1));
+//availablePlayers.add(new Player("Mominul Haque Showrabh", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Laurie Evans", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1));
+//availablePlayers.add(new Player("Raqibul Hasan", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Shahid Afridi", PlayerType.ALLROUNDER, 9.5, TeamNumber.TEAM1));
+//availablePlayers.add(new Player("L Reece", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM1));
+//availablePlayers.add(new Player("Ariful Haque", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Shuvagata Hom", PlayerType.ALLROUNDER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Mashrafe Mortaza (C)", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+//availablePlayers.add(new Player("Shadab Khan", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Thisara Perera", PlayerType.ALLROUNDER, 9.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Wahab Riaz", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("M Hasan", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("H Mahmud", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+
+//Rajshahi Royals Team Players BPL
+// Hazratullah Zazai, Liton Das (wk), Afif Hossain Dhrubo, Shoaib Malik, Andre Russell, Ravi Bopara, Alok Kapali,
+// Abu Jayed Rahi, Taijul Islam, Farhad Reza, Minhajul Abedi Afridi
+// Bench- Nahidul Islam, Mohammad Irfan, Mohammad Nawaz, Irfan Sukkur, Kamrul Islam
+availablePlayers.add(new Player("Liton Das (wk)", PlayerType.WICKET_KEEPER, 9.0, TeamNumber.TEAM1,3));
+availablePlayers.add(new Player("Hazratullah Zazai", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM1,2));
+availablePlayers.add(new Player("Afif Hossain", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1,4));
+availablePlayers.add(new Player("Alok Kapali", PlayerType.BATSMAN, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Andre Russell (C)", PlayerType.ALLROUNDER, 11.0, TeamNumber.TEAM1,1));
+availablePlayers.add(new Player("Ravi Bopara", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM1));
+//availablePlayers.add(new Player("Mohammad Nawaz", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Farhad Reza", PlayerType.BOWLER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Taijul Islam", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Abu Jayed Rahi", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+//availablePlayers.add(new Player("Mohammad Irfan", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+//availablePlayers.add(new Player("Kamrul Islam Rabbi", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Shoaib Malik", PlayerType.BATSMAN, 10.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("M Abedin Afridi", PlayerType.BOWLER, 8.0, TeamNumber.TEAM1));
+
+
+//Khulna Tigers Team Players BPL
+// Najmul Hossain Shanto, Rahmanullah Gurbaz, Rilee Rossouw, Mushfiqur Rahim (C & WK), Shamsur Rahman,
+// Robbie Frylinck, Aminul Islam Biplob, Mehidy Hasan Miraz, Mohammad Amir, Shafiul Islam, Shahidul Islam
+//Bench- Najibullah Zadran, Saif Hassan, Tanvir Islam, Wanindu Hasaranga, Aliss Islam
+availablePlayers.add(new Player("Mushfiqur Rahim", PlayerType.WICKET_KEEPER, 10.5, TeamNumber.TEAM2,4));
+availablePlayers.add(new Player("Rahmanullah Gurbaz", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM2,2));
+availablePlayers.add(new Player("R Rossouw", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM2,3));
+//availablePlayers.add(new Player("Najibullah Zadran", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("N Hossain Shanto", PlayerType.BATSMAN, 8.0, TeamNumber.TEAM2,1));
+availablePlayers.add(new Player("Shamsur Rahman", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM2));
+//availablePlayers.add(new Player("Saif HAssan", PlayerType.BATSMAN, 8.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Mehidy Hasan Miraz", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Robbie Frylinck", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Aminul Islam Biplob", PlayerType.BOWLER, 8.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Shafiul Islam", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Mohammad Amir", PlayerType.BOWLER, 9.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Shahidul Islam", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+//availablePlayers.add(new Player("A Islam", PlayerType.BOWLER, 8.0, TeamNumber.TEAM2));
+//availablePlayers.add(new Player("W Hasaranga", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+//availablePlayers.add(new Player("Tanvir Islam", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+
+
+
+//Australia Team Players
+availablePlayers.add(new Player("Warner", PlayerType.BATSMAN, 10.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Smith", PlayerType.BATSMAN, 10.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("J Burns", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Labuschagne", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Travis Head", PlayerType.ALLROUNDER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Tim Paine", PlayerType.WICKET_KEEPER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Mathew Wade", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Starc", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Cummins", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Hazlewood", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Lyon", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+
+
+//NEw Zealand Team Players
+availablePlayers.add(new Player("Watling", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Williamson", PlayerType.BATSMAN, 10.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Latham", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Taylor", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("H Nicholls", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("JEet Raval", PlayerType.BATSMAN, 8.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("M Santner", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Coli de Grandehomme", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Wagner", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Henry", PlayerType.BOWLER, 8.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Southee", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Boult", PlayerType.BOWLER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Ferguson", PlayerType.BOWLER, 8.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("T Astle", PlayerType.ALLROUNDER, 8.0, TeamNumber.TEAM2));
+
+
+//Nelson Mandela Giants
+// Mzansi Super League
+// Matthew Breetzke, Ben Dunk (WK), JJ Smuts (C), Heino Kuhn, Ryan ten Doeschate,
+// Marco Marias, Chris Morris,  Nandre Burger, Beuran Hendricks, Imran Tahir, AkhonaMnyaka
+availablePlayers.add(new Player("JJ Smuts (C)", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Matthew Breetzke", PlayerType.WICKET_KEEPER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Ben Dunk (WK)", PlayerType.BATSMAN, 10.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Heino Kuhn", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Ryan ten Doeschate", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Marco Marias", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Chris Morris", PlayerType.ALLROUNDER, 9.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Nandre Burger", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player(" Beuran Hendricks", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Imran Tahir", PlayerType.BOWLER, 9.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("AkhonaMnyaka", PlayerType.BOWLER, 8.0, TeamNumber.TEAM1));
+
+
+//Tshwane Spartans
+// Mzansi Super LEague
+// Tony De Zorzi/Dean Elgar, Roelof van der Merwe, AB de Villiers, Heinrich Klaasen (C & WK), Petrus van Biljon,
+// Wiaan Mulder, Tom Curran, Morne Morkel, Lungi Ngidi, Lutho Sipamla, Corbin Bosch
+availablePlayers.add(new Player("Tony De Zorzi", PlayerType.BATSMAN, 8.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Dean Elgar", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Roelof van der Merwe", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("AB de Villiers", PlayerType.BATSMAN, 11.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Heinrich Klaasen (C & WK)", PlayerType.WICKET_KEEPER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Petrus van Biljon", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Wiaan Mulder", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Tom Curran", PlayerType.BOWLER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Morne Morkel", PlayerType.BOWLER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player(" Lungi Ngidi", PlayerType.BOWLER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Lutho Sipamla", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Corbin Bosch", PlayerType.BOWLER, 8.0, TeamNumber.TEAM2));
+
+// Cantebury Kings Super Smash Team Players
+// Cam Fletcher, Steve Murdoch, Cole McConchie (c), Chad Bowes, Leo Carter,
+// Blake Coburn, Jack Boyle/Sean Davey, Andrew Ellis, Ed Nuttall, Henry Shipley, Will Williams
+availablePlayers.add(new Player("Cam Fletcher", PlayerType.WICKET_KEEPER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Steve Murdoch", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Cole McConchie (c)", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Chad Bowes", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Leo Carter", PlayerType.BATSMAN, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Blake Coburn", PlayerType.BOWLER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Jack Boyle", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Sean Davey", PlayerType.BOWLER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Andrew Ellis", PlayerType.ALLROUNDER, 9.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Ed Nuttall", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Henry Shipley", PlayerType.ALLROUNDER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Will Williams", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+
+// Wellington firebirds Super Smash Team Players
+// Jimmy Neesham, Ollie Newton, Michael Bracewell (c), Hamish Bennett, Devon Conway, Iain McPeake,
+// Malcolm Nofal, Jeetan Patel, Michael Pollard/Jamie Gibson, Rachin Ravindra, Logan Van Beek
+availablePlayers.add(new Player("Jimmy Neesham", PlayerType.ALLROUNDER, 10.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Ollie Newton", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Michael Bracewell (c)", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1,4));
+availablePlayers.add(new Player("Hamish Bennett", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Devon Conway", PlayerType.WICKET_KEEPER, 9.5, TeamNumber.TEAM1,1));
+availablePlayers.add(new Player("Iain McPeake", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Malcolm Nofal", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Jeetan Patel", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Michael Pollard", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1,2));
+availablePlayers.add(new Player("Jamie Gibson", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Rachin Ravindra", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM1,3));
+availablePlayers.add(new Player("Logan Van Beek", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+
+//India Team Players
+availablePlayers.add(new Player("Rishabh Pant", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Rohit Sharma", PlayerType.BATSMAN, 10.5, TeamNumber.TEAM2,1));
+availablePlayers.add(new Player("KL Rahul", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM2,2));
+availablePlayers.add(new Player("V Kohli", PlayerType.BATSMAN, 10.5, TeamNumber.TEAM2,3));
+availablePlayers.add(new Player("Shreyas Iyer", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Kedar Jadhav", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Ravindra jadeja", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Deepak Chahr", PlayerType.BOWLER, 8.0, TeamNumber.TEAM2));
+//availablePlayers.add(new Player("Shivam dube", PlayerType.BOWLER, 8.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Kuldeep yadav", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Yuzvendra Chahal", PlayerType.BOWLER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Mohammad Shami", PlayerType.BOWLER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Shardul Thakur", PlayerType.BOWLER, 8.0, TeamNumber.TEAM2));
+
+//West Indies Team Player
+//availablePlayers.add(new Player("Brandon king", PlayerType.BATSMAN, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Shimron Hetmeyer", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1,1));
+availablePlayers.add(new Player("Sunil Ambris", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1,2));
+availablePlayers.add(new Player("Nicolas Pooran", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM1,3));
+availablePlayers.add(new Player("Roston Chase", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Kieron Pollard", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Jason Holder", PlayerType.ALLROUNDER, 9.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Shai Hope", PlayerType.WICKET_KEEPER, 10.0, TeamNumber.TEAM1,4));
+availablePlayers.add(new Player("Keemo Paul", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+//availablePlayers.add(new Player("Romario Shepherd", PlayerType.BOWLER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Sheldon Cottrell", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Hayden Walsh", PlayerType.BOWLER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Alzarri Joseph", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+
+//Otago Team Players Super Smash
+// Hamish Rutherford, Neil Broom, Nick Kelly, Dean Foxcroft, Josh Finnie, Anaru Kitchen, Michael Rippon, Nathan Smith,
+// Jacob Duffy (captain), Max Chu (wicketkeeper), Michael Rae
+availablePlayers.add(new Player("Neil Broom", PlayerType.BATSMAN, 10.0, TeamNumber.TEAM1,2));
+availablePlayers.add(new Player("Hamish Rutherford", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM1,1));
+availablePlayers.add(new Player("Anaru Kitchen", PlayerType.ALLROUNDER, 9.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Michael Rippon", PlayerType.ALLROUNDER, 10.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Jacob Duffy (c)", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Josh Finnie", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Michael Rae", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Nick Kelly", PlayerType.BATSMAN, 8.0, TeamNumber.TEAM1,3));
+availablePlayers.add(new Player("Nathan G Smith", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Dean Foxcroft", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM1,4));
+availablePlayers.add(new Player("Max Chu (wk)", PlayerType.WICKET_KEEPER, 8.0, TeamNumber.TEAM1));
+
+
+//Northern Knights Team Player Super Smash
+// Dean Brownlie (C), Anton Devcich, Joe Carter, Brett Hampton, Daryl Mitchell, Daniel Flynn,
+// Peter Bocock (WK), Scott Kuggeleijn, Matt Fisher, Ish Sodhi, Anurag Verma.
+availablePlayers.add(new Player("Dean Brownlie (C)", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM1,1));
+availablePlayers.add(new Player("Anton Devcich", PlayerType.ALLROUNDER, 9.5, TeamNumber.TEAM1,2));
+availablePlayers.add(new Player("Joe Carter", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1,3));
+availablePlayers.add(new Player("Brett Hampton", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Daryl Mitchell", PlayerType.ALLROUNDER, 9.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Daniel Flynn", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Peter Bocock (WK)", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Scott Kuggeleijn", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player(" Matt Fisher", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Ish Sodhi", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Anurag Verma", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+
+
+
+//Flying Oryx Team Players Qatar T10 League
+// Sami Aslam, Shahid Yousuf, Chaturanga de Silva, Hussain Talat (c), Saad Nasim, Daniyal Bukhari, Harmandeep Singh,
+// Bilawal Iqbal, Assad Borham (wk), Naveed Malik, Abdul Rashid.
+availablePlayers.add(new Player("Sami Aslam", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM2,2));
+availablePlayers.add(new Player("Shahid Yousuf", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Chaturanga de Silva", PlayerType.BOWLER, 9.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Hussain Talat (c)", PlayerType.ALLROUNDER, 10.0, TeamNumber.TEAM2,3));
+availablePlayers.add(new Player("Saad Nasim", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player(" Daniyal Bukhari", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player(" Harmandeep Singh", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Bilawal Iqbal", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Assad Borham (wk)", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM2,1));
+availablePlayers.add(new Player("Naveed Malik", PlayerType.BOWLER, 8.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Abdul Shakooe", PlayerType.WICKET_KEEPER, 8.0, TeamNumber.TEAM2));
+
+//Desert Riders Team Player Qatar T10 league
+// Mohammad Hafeez (c), Sohail Tanvir, Ramith Rambukwella, Kithuruwan Vithanage, Ajay Lalcheta, Muhammad Tanveer, Awais Malik,
+// Muhammad Ikram, Imal Liyanage (wk), Mirza Baig, Adnan Mirza
+availablePlayers.add(new Player("Mohammad Hafeez (c)", PlayerType.ALLROUNDER, 10.0, TeamNumber.TEAM1,1));
+availablePlayers.add(new Player("Sohail Tanvir", PlayerType.BOWLER, 9.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Ramith Rambukwella", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Kithuruwan Vithanage", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM1,2));
+availablePlayers.add(new Player("Ajay Lalcheta", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player(" Muhammad Tanveer", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM1,3));
+availablePlayers.add(new Player( "Awais Malik", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Muhammad Ikram", PlayerType.BOWLER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Muhammad Nadeem", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Imal Liyanage (wk)", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Mirza Baig", PlayerType.BOWLER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Adnan Mirza", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1));
+
+//Swift Gallopers Team Players qatar T10 League
+//Kamran Akmal (C, WK), Sufyan Mehmood, Ali Imran, Ravinderpal Singh, Zaheer Ibrahim, Sadiq NM, Zainudheen, Jahanzeb Ashad,
+// Mughees Bajwa, Mohammad Imran, Umar Gul
+availablePlayers.add(new Player("Kamran Akmal (C, WK)", PlayerType.WICKET_KEEPER, 9.5, TeamNumber.TEAM2,1));
+availablePlayers.add(new Player("Sufyan Mehmood", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Ali Imran", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM2,2));
+availablePlayers.add(new Player("Ravinderpal Singh", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Zaheer Ibrahim", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM2,3));
+availablePlayers.add(new Player("Sadiq NM", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Zainudheen", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Jahanzeb Ashad", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Mughees Bajwa", PlayerType.BOWLER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Mohammad Imran", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Umar Gul", PlayerType.BOWLER, 9.5, TeamNumber.TEAM2));
+
+//Falcon Hunters Team Players qatar T10 League
+//Salman Butt, Hashim Amla, Saad Bin Zafar, Waqas Maqsood, Amad Butt, Tamoor Sajjad, Iqbal Hussain (C), Mohammed Rizlan (WK),
+// Kamran Khan, Murad Khan, Khalid Bhasheer
+availablePlayers.add(new Player("Salman Butt", PlayerType.BATSMAN, 10.0, TeamNumber.TEAM1,1));
+availablePlayers.add(new Player("Hashim Amla", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM1,2));
+availablePlayers.add(new Player("Saad Bin Zafar", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Waqas Maqsood", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Amad Butt", PlayerType.ALLROUNDER, 9.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player(" Tamoor Sajjad", PlayerType.ALLROUNDER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player( "Iqbal Hussain (C)", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Mohammed Rizlan (WK)", PlayerType.WICKET_KEEPER, 9.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Kamran Khan", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM1,3));
+availablePlayers.add(new Player("Murad Khan", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Khalid Bhasheer", PlayerType.ALLROUNDER, 8.0, TeamNumber.TEAM1));
+
+//Brisbane Heat Team Players Big Bash League
+//Lynn(C), Banton, Bryant, Renshaw, Heazlett, Cutting, Pierson(WK), Steketee, Zahir, Lalor/Swepson and Laughlin.
+availablePlayers.add(new Player("Pierson(WK)", PlayerType.WICKET_KEEPER, 8.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Lynn(C)", PlayerType.BATSMAN, 10.5, TeamNumber.TEAM2,1));
+availablePlayers.add(new Player("Banton", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM2,2));
+availablePlayers.add(new Player("Bryant", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM2,3));
+availablePlayers.add(new Player("Renshaw", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Heazlett", PlayerType.BATSMAN, 8.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Cutting", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Steketee", PlayerType.BOWLER, 8.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Zahir", PlayerType.BOWLER, 8.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Lalor", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Swepson", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Laughlin", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+
+//Sydney Thunder Team Players Big Bash League
+// Hales, Khawaja, Ferguson(C), Gilkes(WK), Ross, Sams, Nair, Tremain, Green, McAndrew and Cook.
+availablePlayers.add(new Player("Hales", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM1,1));
+availablePlayers.add(new Player("Khawaja", PlayerType.BATSMAN, 10.0, TeamNumber.TEAM1,2));
+availablePlayers.add(new Player("Ferguson(C)", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM1,3));
+availablePlayers.add(new Player("Gilkes(WK)", PlayerType.WICKET_KEEPER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Ross", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("D Sams", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player( "Nair", PlayerType.BOWLER, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Tremain", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Green", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("McAndrew", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Cook", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+
+
+//Central District Stags Team Players Super Smash
+// Tom Bruce (captain), Josh Clarkson, Dane Cleaver (wicketkeeper), Christian Leopard, Willem Ludic, Kieran Noema-Barnett, Ajaz Patel,
+// Seth Rance, Blair Tickner/Ben Wheeler, Ryan Watson, George Worker
+availablePlayers.add(new Player("Tom Bruce (captain)", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM2,2));
+availablePlayers.add(new Player("Josh Clarkson", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Dane Cleaver (wicketkeeper)", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM2,3));
+availablePlayers.add(new Player("Christian Leopard", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM2,4));
+availablePlayers.add(new Player("Willem Ludic", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Kieran Noema-Barnett", PlayerType.ALLROUNDER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Ajaz Patel", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Seth Rance", PlayerType.BOWLER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Blair Tickner", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Ben Wheeler", PlayerType.BOWLER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Ryan Watson", PlayerType.BOWLER, 8.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("George Worker", PlayerType.ALLROUNDER, 10.5, TeamNumber.TEAM2,1));
+
+// Sydney Sixers Team Players -- Big Bash League
+//Daniel Hughes, Josh Phillipe (WK), James Vince, Moises Henriques (C), Jordan Silk, Jack Edwards, Tom Curran, Sean Abbott,
+// Steve O’Keefe, Ben Dwarshuis, Ben Manenti.
+//Bench – Hayden Kerr
+availablePlayers.add(new Player("Daniel Hughes", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM1,1));
+availablePlayers.add(new Player("Moises Henriques (C)", PlayerType.ALLROUNDER, 9.5, TeamNumber.TEAM1,2));
+availablePlayers.add(new Player("James Vince", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM1,4));
+availablePlayers.add(new Player("Jordan Silk", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Josh Phillipe (WK)", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM1,3));
+availablePlayers.add(new Player("Jack Edwards", PlayerType.BATSMAN, 8.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Tom Curran", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Sean Abbott", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Steve O’Keefe", PlayerType.BOWLER, 9.0, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Ben Dwarshuis", PlayerType.BOWLER, 8.5, TeamNumber.TEAM1));
+availablePlayers.add(new Player("Ben Manentia", PlayerType.BOWLER, 8.0, TeamNumber.TEAM1));
+
+//Perth Scorchers Team Players -- Big Bash League
+// Josh Inglis, Cameron Bancroft (WK), Liam Livingstone, Ashton Turner, Mitchell Marsh (C), Sam Whiteman, Ashton Agar, Chris Jordan,
+// Jhye Richardson, Fawad Ahmed, Matt Kelly.
+//Bench – Joel Paris, Cameron Green.
+availablePlayers.add(new Player("Josh Inglis", PlayerType.WICKET_KEEPER, 8.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Liam Livingstone", PlayerType.BATSMAN, 8.5, TeamNumber.TEAM2,1));
+availablePlayers.add(new Player("Cameron Bancroft (WK)", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM2,2));
+availablePlayers.add(new Player("Ashton Turner", PlayerType.BATSMAN, 9.5, TeamNumber.TEAM2,3));
+availablePlayers.add(new Player("Mitchell Marsh (C)", PlayerType.ALLROUNDER, 9.5, TeamNumber.TEAM2,4));
+availablePlayers.add(new Player("Sam Whiteman", PlayerType.WICKET_KEEPER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Ashton Agar", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Chris Jordan", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Jhye Richardson", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Fawad Ahmed", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Matt Kelly", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+
+//Auckland Team Players super Smash
+// Martin Guptill, Colin Munro, Glenn Phillips (wicketkeeper), Mark Chapman, Craig Cachopa (captain), Corey Anderson, Sean Solia,
+// Ronnie Hira, William Somerville, Mitchell McClenaghan, Ben Lister
+availablePlayers.add(new Player("Martin Guptill", PlayerType.BATSMAN, 10.5, TeamNumber.TEAM2,1));
+availablePlayers.add(new Player("Colin Munro", PlayerType.BATSMAN, 10.0, TeamNumber.TEAM2,2));
+availablePlayers.add(new Player("Glenn Phillips (wicketkeeper)", PlayerType.WICKET_KEEPER, 9.5, TeamNumber.TEAM2,3));
+availablePlayers.add(new Player("Mark Chapman", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM2,4));
+availablePlayers.add(new Player("Craig Cachopa (captain)", PlayerType.BATSMAN, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Corey Anderson", PlayerType.ALLROUNDER, 9.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Sean Solia", PlayerType.ALLROUNDER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Ronnie Hira", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("William Somerville", PlayerType.BOWLER, 8.5, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Mitchell McClenaghan", PlayerType.BOWLER, 9.0, TeamNumber.TEAM2));
+availablePlayers.add(new Player("Ben Lister", PlayerType.BOWLER, 8.0, TeamNumber.TEAM2));
+
+
+
+
