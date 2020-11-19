@@ -1,4 +1,4 @@
-package Practice.src.main.java.com.harish.ticketgen;
+package com.harish.ticketgen;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;

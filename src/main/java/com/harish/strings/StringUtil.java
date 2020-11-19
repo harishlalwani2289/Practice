@@ -1,6 +1,4 @@
-package string;
-
-import org.jetbrains.annotations.NotNull;
+package com.harish.strings;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -21,7 +19,7 @@ public class StringUtil {
         System.out.println(divisibilityBy11("781"));
     }
 
-    private static boolean divisibilityBy11(String s) {
+    public static boolean divisibilityBy11(String s) {
         // Odd digits are at even indexes and even digits are at odd indexes
         int evenSum =0;
         int oddSum = 0;
@@ -161,7 +159,7 @@ public class StringUtil {
         System.out.println(result);
     }
 
-    public static @NotNull
+    public static
     String capitalize(String word) {
         return word.toUpperCase().charAt(0) + word.substring(1);
     }

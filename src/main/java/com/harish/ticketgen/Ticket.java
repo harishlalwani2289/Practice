@@ -1,4 +1,4 @@
-package Practice.src.main.java.com.harish.ticketgen;
+package com.harish.ticketgen;
 
 import java.util.List;
 import java.util.Map;

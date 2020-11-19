@@ -1,7 +1,9 @@
-package Practice.src.main.java.com.harish.ticketgen;
+package com.harish.ticketgen;
 
 
 
+
+import com.harish.ticketgen.model.Prize;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -115,7 +117,7 @@ class App extends JFrame implements ActionListener{
   }
  }
 
- private void printtheTheTicketsWhichHasWon(List<Integer> calledNumbers, List<Prize> prizeList) {
+ private void printtheTheTicketsWhichHasWon(List<Integer> calledNumbers, List<com.harish.ticketgen.Prize> prizeList) {
   ticketsWon = GameWinner.getWinningTickets(calledNumbers, prizeList);
   if(ticketsWon.size() > 0) {
 

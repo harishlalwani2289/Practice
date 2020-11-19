@@ -1,4 +1,6 @@
-package string;
+package strings;
+
+import com.harish.strings.StringUtil;
 
 /**
  * Given a string of digits, determine whether it is a ‘sum-string’.
