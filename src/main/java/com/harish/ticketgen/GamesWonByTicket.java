@@ -1,9 +1,10 @@
 package com.harish.ticketgen;
 
+import Practice.src.main.java.com.harish.ticketgen.Prize;
+import Practice.src.main.java.com.harish.ticketgen.Ticket;
+
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
-import java.util.function.Predicate;
 
 public class GamesWonByTicket {
 

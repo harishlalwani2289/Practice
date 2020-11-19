@@ -1,4 +1,4 @@
-package com.harish.ticketgen;
+package Practice.src.main.java.com.harish.ticketgen;
 
 import org.apache.poi.ss.usermodel.BorderStyle;
 import org.apache.poi.ss.usermodel.Cell;
@@ -65,7 +65,7 @@ public class ExcelNumberHighlight {
                 Row row = sheet.getRow(++rowNum);
                 for (int j = 0; j < ticketColumLength; j++) {
                     Cell cell = row.getCell(j+1);
-                    if(cell.getCellType() == CellType.NUMERIC) {
+                    if(cell.getCellTypeEnum() == CellType.NUMERIC) {
                         if ((int)cell.getNumericCellValue() == calledNumber ) {
                             cell.setCellStyle(style);
                     }

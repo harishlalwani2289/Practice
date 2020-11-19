@@ -1,4 +1,4 @@
-package com.harish.ticketgen;
+package Practice.src.main.java.com.harish.ticketgen;
 
 public class Prize {
 

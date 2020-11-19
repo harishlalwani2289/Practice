@@ -1,4 +1,4 @@
-package com.harish.ticketgen;
+package Practice.src.main.java.com.harish.ticketgen;
 
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.CellType;
@@ -45,7 +45,7 @@ public class GameWinner {
             switch (prize.getPrizeID()) {
                 case "P1":
                     if(!prize.isPrizeWon() && calledNumbers.size() == 13){
-                       List<Ticket> tickets = GamesWonByTicket.getTicketsWhichHasWonUnlucky13(ticketList, calledNumbers , prize);
+                       List<Ticket> tickets = com.harish.ticketgen.GamesWonByTicket.getTicketsWhichHasWonUnlucky13(ticketList, calledNumbers , prize);
                        if(tickets.size() > 0)
                            prize.setPrizeWon(true);
                     }
@@ -79,7 +79,7 @@ public class GameWinner {
                 List<Integer> currentRowNumbers = new ArrayList<>();
                 for (int j = 0; j < ticketColumnLength; j++) {
                     Cell cell = row.getCell(j+1);
-                    if(cell.getCellType() == CellType.NUMERIC)
+                    if(cell.getCellTypeEnum() == CellType.NUMERIC)
                         currentRowNumbers.add((int) cell.getNumericCellValue());
                     else
                         currentRowNumbers.add(0);

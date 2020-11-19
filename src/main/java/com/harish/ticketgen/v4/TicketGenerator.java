@@ -1,9 +1,8 @@
-package com.harish.ticketgen.v4;
+package Practice.src.main.java.com.harish.ticketgen.v4;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Random;
 import java.util.Set;

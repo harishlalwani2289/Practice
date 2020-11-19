@@ -1,6 +1,5 @@
-package com.harish.dynamicprogramming;
+package Practice.src.main.java.com.harish.dynamicprogramming;
 
-import org.apache.commons.codec.binary.StringUtils;
 
 public class LongestCommonSubsequence {
     public static void main(String[] args) {
