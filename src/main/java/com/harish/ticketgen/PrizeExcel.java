@@ -1,4 +1,4 @@
-package Practice.src.main.java.com.harish.ticketgen;
+package practice.src.main.java.com.harish.ticketgen;
 
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
@@ -32,15 +32,15 @@ public class PrizeExcel {
         }
     }
 
-    public static List<Prize> getAllPrizes() {
+    public static List<com.harish.ticketgen.Prize> getAllPrizes() {
         XSSFSheet sheet = workbook.getSheet("Prizes");
-        List<Prize> prizeList = new ArrayList<>();
+        List<com.harish.ticketgen.Prize> prizeList = new ArrayList<>();
 
         int rowNum = 2;
 
         do {
 
-            Prize prize = new Prize();
+            com.harish.ticketgen.Prize prize = new com.harish.ticketgen.Prize();
             prize.setPrizeID(sheet.getRow(rowNum).getCell(1).getStringCellValue());
             prize.setPrizeName(sheet.getRow(rowNum).getCell(2).getStringCellValue());
             prize.setPrizeDescription(sheet.getRow(rowNum).getCell(3).getStringCellValue());

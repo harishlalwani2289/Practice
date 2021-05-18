@@ -1,4 +1,4 @@
-package Practice.src.main.java.com.harish.ticketgen;
+package practice.src.main.java.com.harish.ticketgen;
 
 import com.harish.ticketgen.v2.TicketGenerator;
 import org.apache.poi.ss.usermodel.BorderStyle;
@@ -23,7 +23,7 @@ public class WriteTicketInExcel {
 
     public static void main(String[] args) {
 
-        XSSFSheet sheet = workbook.createSheet("Tickets_26Apr2020");
+        XSSFSheet sheet = workbook.createSheet("Tickets_18May2020");
 
         CellStyle style = workbook.createCellStyle();
         style.setBorderBottom(BorderStyle.MEDIUM);

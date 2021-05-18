@@ -1,4 +1,4 @@
-package Practice.src.main.java.com.harish.excel;
+package practice.src.main.java.com.harish.excel;
 
 import org.apache.poi.hssf.usermodel.HSSFRow;
 import org.apache.poi.hssf.usermodel.HSSFSheet;

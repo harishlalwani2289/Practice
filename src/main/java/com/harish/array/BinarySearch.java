@@ -1,4 +1,4 @@
-package Practice.src.main.java.com.harish.array;
+package practice.src.main.java.com.harish.array;
 
 public class BinarySearch {
 

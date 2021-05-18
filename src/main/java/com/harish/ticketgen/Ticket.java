@@ -8,7 +8,7 @@ public class Ticket {
     private String ticketNumber;
     private String personName;
     private Map<Integer, List<Integer>> rows;
-    private List<Prize> prizesWonByTicket;
+    private List<com.harish.ticketgen.Prize> prizesWonByTicket;
 
     public String getTicketNumber() {
         return ticketNumber;
@@ -34,11 +34,11 @@ public class Ticket {
         this.rows = rows;
     }
 
-    public List<Prize> getPrizesWonByTicket() {
+    public List<com.harish.ticketgen.Prize> getPrizesWonByTicket() {
         return prizesWonByTicket;
     }
 
-    public void setPrizesWonByTicket(List<Prize> prizesWonByTicket) {
+    public void setPrizesWonByTicket(List<com.harish.ticketgen.Prize> prizesWonByTicket) {
         this.prizesWonByTicket = prizesWonByTicket;
     }
 }

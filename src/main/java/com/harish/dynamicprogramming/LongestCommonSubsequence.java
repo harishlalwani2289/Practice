@@ -1,4 +1,4 @@
-package Practice.src.main.java.com.harish.dynamicprogramming;
+package practice.src.main.java.com.harish.dynamicprogramming;
 
 
 public class LongestCommonSubsequence {

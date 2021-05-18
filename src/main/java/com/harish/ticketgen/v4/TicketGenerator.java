@@ -1,4 +1,4 @@
-package Practice.src.main.java.com.harish.ticketgen.v4;
+package practice.src.main.java.com.harish.ticketgen.v4;
 
 import java.util.ArrayList;
 import java.util.Collections;

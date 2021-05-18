@@ -1,4 +1,4 @@
-package Practice.src.main.java.com.harish.ticketgen.v4;
+package practice.src.main.java.com.harish.ticketgen.v4;
 
 import org.apache.poi.ss.usermodel.BorderStyle;
 import org.apache.poi.ss.usermodel.Cell;
@@ -45,7 +45,7 @@ public class WriteTicketInExcel {
 
         for(int k = 0 ; k < numberOFTickets ; k++ ) {
 
-            int[][] ticket = Practice.src.main.java.com.harish.ticketgen.v4.TicketGenerator.getTicket();
+            int[][] ticket = practice.src.main.java.com.harish.ticketgen.v4.TicketGenerator.getTicket();
             //Store the positions stored in 2-d array
             List<Integer> positions = getPositionsWithNumber(ticket);
             int immunityPosition = positions.get(getRandomPosition());

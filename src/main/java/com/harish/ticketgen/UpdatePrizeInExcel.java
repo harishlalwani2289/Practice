@@ -1,4 +1,4 @@
-package Practice.src.main.java.com.harish.ticketgen;
+package practice.src.main.java.com.harish.ticketgen;
 
 import com.harish.ticketgen.model.Prize;
 import org.apache.poi.ss.usermodel.BorderStyle;
