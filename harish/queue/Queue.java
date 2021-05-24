@@ -34,12 +34,30 @@ public class Queue {
 
     public void remove() {
         System.out.println("We removed :" + queueArray[front++]);
-        if(front == maxSize)
-            front =0;
+        if(nItems == 0) {
+            front = 0;
+            rear = -1;
+        }
         nItems--;
+    }
+
+    public boolean isEmpty() {
+        if (nItems == 0) {
+            return  true;
+        }
+        return false;
     }
 
     public boolean isFull() {
         return maxSize == nItems;
+    }
+
+    @Override
+    public String toString() {
+        String queueElements = "";
+        for (int q = front ; q<=rear;q++) {
+            queueElements = queueElements + queueArray[q] + " " ;
+        }
+        return queueElements;
     }
 }
