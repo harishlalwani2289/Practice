@@ -10,4 +10,12 @@ public class Research { // high-level module
         tripletList.stream().filter(x -> x.getValue0().name.equals("John") && x.getValue1() == Relationship.PARENT)
             .forEach(ch -> System.out.println(" John has a child " + ch.getValue2().name));
     }
+
+    public Research(RelationshipBrowser browser) {
+        List<Person> johnchildren = browser.findAllChildrenOf("John");
+        for(Person person : johnchildren) {
+            System.out.println(" John has a child " + person.name);
+        }
+
+    }
 }
