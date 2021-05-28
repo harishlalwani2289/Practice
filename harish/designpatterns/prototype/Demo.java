@@ -1,6 +1,8 @@
 package practice.harish.designpatterns.prototype;
 
 
+import practice.harish.designpatterns.prototype.copyconstructor.Employee;
+
 public class Demo extends Object {
 
     public static void main(String[] args) throws CloneNotSupportedException {
@@ -12,6 +14,19 @@ public class Demo extends Object {
 
         System.out.println(john);
         System.out.println(jane);
+
+
+        Employee john2 = new Employee("John",
+                new practice.harish.designpatterns.prototype.copyconstructor.Address("123 Road", "London", "UKK"));
+
+        Employee chris = new Employee(john2);
+
+        chris.name = "Chris";
+        chris.address.city = "Mumbai";
+        System.out.println(john2);
+        System.out.println(chris);
+
+
 
     }
 }
