@@ -1,4 +1,4 @@
-package random.immutable;
+package practice.harish.random.immutable;
 
 public  class Employee {
     private final String empName;

@@ -1,4 +1,4 @@
-package random.immutable;
+package practice.harish.random.immutable;
 
 public class Address implements Cloneable {
     public String addressType;
