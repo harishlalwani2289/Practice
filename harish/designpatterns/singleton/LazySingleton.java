@@ -10,8 +10,15 @@ public class LazySingleton {
 
     public static LazySingleton getInstance() {
         if(instance == null) {
-            instance = new LazySingleton();
+            synchronized (LazySingleton.class)
+            {
+                if(instance == null)
+                    instance = new LazySingleton();
+            }
         }
         return instance;
     }
+
+    // Double check locking
+
 }
