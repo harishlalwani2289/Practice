@@ -1,6 +1,6 @@
 package practice.harish.random.immutable;
 
-public  class Employee {
+public class Employee {
     private final String empName;
     private final int age;
     private final Address address;
