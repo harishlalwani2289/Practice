@@ -23,7 +23,7 @@ public class WriteTicketInExcel {
 
     public static void main(String[] args) {
 
-        XSSFSheet sheet = workbook.createSheet("Tickets_18May2020");
+        XSSFSheet sheet = workbook.createSheet("Tickets_17Aug2021");
 
         CellStyle style = workbook.createCellStyle();
         style.setBorderBottom(BorderStyle.MEDIUM);
@@ -63,7 +63,7 @@ public class WriteTicketInExcel {
             }
         }
 
-        try (FileOutputStream outputStream = new FileOutputStream("Tickets_26Apr_2020.xlsx")) {
+        try (FileOutputStream outputStream = new FileOutputStream("Tickets_17Aug_2021.xlsx")) {
             workbook.write(outputStream);
         } catch (IOException e) {
             e.printStackTrace();
