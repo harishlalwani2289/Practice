@@ -27,7 +27,7 @@ public class GameWinner {
 
     static XSSFSheet ticketSheet = xssfWorkbook.getSheet("Tickets_11Apr2020");
 
-    public GameWinner() throws IOException {
+    public GameWinner() {
     }
 
     public static List<Ticket> getWinningTickets(List<Integer> calledNumbers, List<Prize> prizeList) {
