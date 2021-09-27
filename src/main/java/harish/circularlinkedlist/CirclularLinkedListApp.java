@@ -12,6 +12,7 @@ public class CirclularLinkedListApp {
         circularLinkedList.insert(39);
         circularLinkedList.insert(49);
         circularLinkedList.insert(59);
+        circularLinkedList.insert(69);
 
         circularLinkedList.displayList();
     }
