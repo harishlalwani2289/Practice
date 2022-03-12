@@ -1,11 +1,0 @@
-
-
-java:S1319"qThe return type of this method should be an interface such as "List" rather than the implementation "LinkedList".(ÌªÊ¿8™ÿû¬Ü.
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(§ä‘¥8õ·ƒ­Ü.
-e
-java:S22594"CA "NullPointerException" could be thrown; "prevA" is nullable here.(å¨à§şÿÿÿÿ8•ìı¶Ü.
-”
-java:S1319"wThe type of the "linkedListA" object should be an interface such as "List" rather than the implementation "LinkedList".(ÌªÊ¿8­÷¬Ü.
-”
-java:S1319"wThe type of the "linkedListB" object should be an interface such as "List" rather than the implementation "LinkedList".(ÌªÊ¿8­÷¬Ü.
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ú¤»ó8õ·ƒ­Ü.
