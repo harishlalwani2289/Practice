@@ -1,9 +1,13 @@
-package generictree;
+package harish.generictree;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Node {
     int data;
-    List<Node> children = new ArrayList<>();
+    ArrayList<Node> children;
+
+    public Node(int data, ArrayList<Node> children) {
+        this.data = data;
+        this.children = children;
+    }
 }
