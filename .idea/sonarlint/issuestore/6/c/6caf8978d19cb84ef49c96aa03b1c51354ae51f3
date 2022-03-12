@@ -1,19 +1,0 @@
-
-9
-java:S1643 "Use a StringBuilder instead.(¢ì£Í8àËÏİ¢.
-Z	java:S1065"9Replace this use of System.out or System.err by a logger.(¾Åå¸şÿÿÿÿ8Ëíİ¢.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ8Ö—åİ¢.
-9
-java:S1643,"Use a StringBuilder instead.(ş‘Ú‘8ÇÈ‚Ş¢.
-a
-java:S1854"?Remove this useless assignment to local variable "lengthOfLCS".(Í’–éûÿÿÿÿ8¨‰ İ¢.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8îéâİ¢.
-R
-java:S1481"0Remove this unused "lengthOfLCS" local variable.(Í’–éûÿÿÿÿ8¨‰ İ¢.
-Z	java:S1063"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8Ò‡İ¢.
-F
-java:S1172")Remove this unused method parameter "s1".(Óôó¬8Š·²İ¢.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ã”…ªûÿÿÿÿ8Ö—åİ¢.
-e
-java:S1128"HRemove this unused import 'org.apache.commons.codec.binary.StringUtils'.(¿Ô¶»8äôõİ¢.
-Z	java:S106%"9Replace this use of System.out or System.err by a logger.(¿åŸòúÿÿÿÿ8³ĞÜİ¢.

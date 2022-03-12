@@ -1,4 +1,0 @@
-
-N	java:S106"9Replace this use of System.out or System.err by a logger.(¾Œãú
-Œ
-java:S1319"vThe type of the "linkedList" object should be an interface such as "List" rather than the implementation "LinkedList".(²þ„×

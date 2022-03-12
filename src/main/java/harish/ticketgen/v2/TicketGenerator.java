@@ -27,7 +27,7 @@ public class TicketGenerator {
             List<Integer> positionsFilledInColumn = getPositionsFilledInColumn(columnNumber, ticket);
             Collections.sort(positionsFilledInColumn);
 
-            // If there are two numbers in column, swappingmay be required.
+            // If there are two numbers in column, swapping may be required.
             if(positionsFilledInColumn.size() == 2) {
                 if (ticket[positionsFilledInColumn.get(0)][columnNumber] > ticket[positionsFilledInColumn.get(1)][columnNumber]) {
                     // Swapping the positions
