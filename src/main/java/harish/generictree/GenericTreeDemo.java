@@ -1,28 +1,20 @@
 package harish.generictree;
 
 import java.util.ArrayList;
+import java.util.Stack;
 
 public class GenericTreeDemo {
 
     public static void main(String[] args) {
         GenericTree genericTree = new GenericTree();
-        genericTree.root = new Node(10, new ArrayList<>());
+        int[] numbers = {10,20,50,-1,60,-1,-1,30,70,-1,80,110,-1,120,
+                -1,-1,90,-1,-1,40,100,-1,-1,-1};
+        genericTree.construct(numbers);
 
-        // Root children
-        genericTree.root.children.add(new Node(20, new ArrayList<>()));
-        genericTree.root.children.add(new Node(30, new ArrayList<>()));
-        genericTree.root.children.add(new Node(40, new ArrayList<>()));
-
-
-        // First child of root and inserting few nodes there
-        genericTree.root.children.get(0).children.add(new Node(50, new ArrayList<>()));
-        genericTree.root.children.get(0).children.add(new Node(60, new ArrayList<>()));
-
-        // Second child of root and inserting few nodes there
-        genericTree.root.children.get(1).children.add(new Node(70, new ArrayList<>()));
-        genericTree.root.children.get(1).children.add(new Node(80, new ArrayList<>()));
-
-        System.out.println(genericTree.root.children.get(0).data);
+        // Display my generic tree
+//        genericTree.display(genericTree.root);
+        int sizeOfTree = genericTree.size(genericTree.root);
+        System.out.println("Size of Tree :" + sizeOfTree);
 
     }
 }

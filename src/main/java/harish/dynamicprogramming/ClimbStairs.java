@@ -3,7 +3,7 @@ package harish.dynamicprogramming;
 public class ClimbStairs {
 
   public static void main(String[] args) {
-    int n = 13;
+    int n = 2;
     System.out.println(countPaths(n));
   }
 
