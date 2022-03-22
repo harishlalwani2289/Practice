@@ -8,5 +8,8 @@ public class BinaryTreeDemo {
         BinaryTree binaryTree = new BinaryTree();
         binaryTree.construct2(input);
         binaryTree.display(binaryTree.root);
+        System.out.println("Size of tree : " + binaryTree.size(binaryTree.root));
+        System.out.println("Sum of tree : " + binaryTree.sum(binaryTree.root));
+        System.out.println("Max of tree : " + binaryTree.max(binaryTree.root));
     }
 }

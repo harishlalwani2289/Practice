@@ -111,4 +111,58 @@ public class BinaryTree {
             top.node.left = null;
         }
     }
+
+    public int size(Node node) {
+
+        if (node == null)
+            return 0;
+        int treeSize = 0;
+        int leftSize = size(node.left);
+        int rightSize = size(node.right);
+
+        treeSize = leftSize + rightSize + 1;
+        return treeSize;
+    }
+
+    public int sum(Node node) {
+
+        if(node == null) {
+            return  0;
+        }
+        int treeSum = 0;
+        int leftSum = sum(node.left);
+        int rightSum = sum(node.right);
+        treeSum = leftSum + rightSum + node.data;
+        return treeSum;
+    }
+
+    public int max(Node node) {
+
+        if(node == null){
+            return Integer.MIN_VALUE;
+        }
+        int max = Integer.MIN_VALUE;
+
+        int leftMax = max(node.left);
+        int rightMax = max(node.right);
+
+        int interimMax = Math.max(leftMax, rightMax);
+        max = Math.max(interimMax, node.data);
+        return max;
+    }
+
+    public int min(Node node) {
+
+        if(node == null){
+            return Integer.MAX_VALUE;
+        }
+        int min = Integer.MAX_VALUE;
+
+        int leftMin = min(node.left);
+        int rightMin = min(node.right);
+
+        int interimMin = Math.min(leftMin, rightMin);
+        min = Math.min(interimMin, node.data);
+        return min;
+    }
 }
