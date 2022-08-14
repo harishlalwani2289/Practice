@@ -1,8 +1,8 @@
 package harish.thread;
 
-import harish.dynamicprogramming.Fibonacci;
-import leetcode.FizzBuzz;
 import leetcode.RansomNote;
+
+import static java.lang.Thread.currentThread;
 
 public class Demo {
     public static void main(String[] args) {
@@ -13,17 +13,32 @@ public class Demo {
         anotherThread.start();
 
         new Thread(() -> {
-            for (int i = 0; i < 100; i++) {
+            for (int i = 0; i < 1; i++) {
                 System.out.println(ThreadColor.ANSI_GREEN + "Hello from anonymous thread " + i + " from thread " + "Anonymous");
                 System.out.println(RansomNote.canConstruct("ededoiud", "ddeefdd"));
             }
         }).start();
 
         Thread myRunnableThread = new Thread(new MyRunnable());
+        myRunnableThread.setName("== My Runnable ==");
         myRunnableThread.start();
 
-        Thread anotherThread2 = new AnotherThread();
-        anotherThread2.setName("Thread 2");
-        anotherThread2.start();
+//        /**
+//         *
+//         * It is used to interrupt an executing thread
+//         *
+//         * Interrupt method will work only when it is sleeping or waiting state
+//         *
+//         * If it is called on sleeping or waiting state then it will perform normallly and we will not see any effect
+//         *
+//         * When we use interrup mwthod, it throws an exception InterruptedException
+//         */
+        anotherThread.interrupt();
+
+        System.out.println("Hello again from main thread " + currentThread().getName());
+
+//        Thread anotherThread2 = new AnotherThread();
+//        anotherThread2.setName("Thread 2");
+//        anotherThread2.start();
     }
 }
