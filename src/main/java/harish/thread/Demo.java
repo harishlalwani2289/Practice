@@ -19,9 +19,9 @@ public class Demo {
 //                System.out.println(RansomNote.canConstruct("ededoiud", "ddeefdd"));
                 try {
                     Thread.sleep(1000);
-                    if(i==5) {
-                        anotherThread.join();
-                        System.out.println(ANSI_GREEN + "Another thread completed, now I am running again");
+                    if(i>=5) {
+                        anotherThread.join(2000);
+                        System.out.println(ANSI_GREEN + "Another thread completed or timed out, now I am running again");
                     }
 
                 } catch (InterruptedException e) {
