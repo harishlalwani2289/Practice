@@ -2,6 +2,7 @@ package harish.thread;
 
 import leetcode.RansomNote;
 
+import static harish.thread.ThreadColor.ANSI_GREEN;
 import static java.lang.Thread.currentThread;
 
 public class Demo {
@@ -13,15 +14,25 @@ public class Demo {
         anotherThread.start();
 
         new Thread(() -> {
-            for (int i = 0; i < 1; i++) {
-                System.out.println(ThreadColor.ANSI_GREEN + "Hello from anonymous thread " + i + " from thread " + "Anonymous");
-                System.out.println(RansomNote.canConstruct("ededoiud", "ddeefdd"));
+            for (int i = 0; i < 10; i++) {
+                System.out.println(ANSI_GREEN + "Hello from anonymous thread " + i + " from thread " + "Anonymous");
+//                System.out.println(RansomNote.canConstruct("ededoiud", "ddeefdd"));
+                try {
+                    Thread.sleep(1000);
+                    if(i==5) {
+                        anotherThread.join();
+                        System.out.println(ANSI_GREEN + "Another thread completed, now I am running again");
+                    }
+
+                } catch (InterruptedException e) {
+                    System.out.println(ANSI_GREEN + "I couldn't wait after all. I was interrupted");
+                }
             }
         }).start();
 
-        Thread myRunnableThread = new Thread(new MyRunnable());
-        myRunnableThread.setName("== My Runnable ==");
-        myRunnableThread.start();
+//        Thread myRunnableThread = new Thread(new MyRunnable());
+//        myRunnableThread.setName("== My Runnable ==");
+//        myRunnableThread.start();
 
 //        /**
 //         *
@@ -33,7 +44,7 @@ public class Demo {
 //         *
 //         * When we use interrup mwthod, it throws an exception InterruptedException
 //         */
-        anotherThread.interrupt();
+//        anotherThread.interrupt();
 
         System.out.println("Hello again from main thread " + currentThread().getName());
 
