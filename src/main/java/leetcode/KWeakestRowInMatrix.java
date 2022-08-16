@@ -1,5 +1,8 @@
 package leetcode;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 /**
 * You are given an m x n binary matrix mat of 1's (representing soldiers) and 0's (representing civilians).
 *  The soldiers are positioned in front of the civilians. That is, all the 1's will appear to the left of all the 0's in each row.
@@ -59,6 +62,34 @@ matrix[i][j] is either 0 or 1.
 public class KWeakestRowInMatrix {
 
     public static void main(String[] args) {
+        int[][] arr  = {{1,0,0,0},{1,1,1,1},{1,0,0,0},{1,1,0,0}};
+        int[] result = kWeakestRows(arr,2);
+        for(int r : result){
+            System.out.println(r);
+        }
 
+
+    }
+
+    public static int[] kWeakestRows(int[][] mat, int k) {
+
+        int[][] soldiersIndexArray = new int[mat.length][2];
+        int[] result = new int[k];
+        for(int i=0;i<mat.length;i++) {
+            int soldiers = 0;
+            for(int j=0;j<mat[0].length;j++){
+                if(mat[i][j] == 1)
+                    soldiers++;
+            }
+            soldiersIndexArray[i][0] = soldiers;
+            soldiersIndexArray[i][1] = i;
+        }
+
+        Arrays.sort(soldiersIndexArray, (o1, o2) -> o1[0] == o2[0] ? o1[1] - o2[1] : o1[0] - o2[0]);
+        for(int i=0;i<k;i++){
+            result[i] = soldiersIndexArray[i][1];
+        }
+
+        return  result;
     }
 }
