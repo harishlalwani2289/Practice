@@ -11,6 +11,7 @@ public class FizzBuzz {
 
     private static List<String> fizzBuzz(int number) {
         List<String> fizzBuzzList = new ArrayList<>();
+        // Simple Arithmetic
         for (int i = 1; i <= number; i++) {
             if (i % 3 == 0 && i % 5 == 0) {
                 fizzBuzzList.add("FizzBuzz");

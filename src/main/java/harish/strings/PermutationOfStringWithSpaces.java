@@ -6,8 +6,8 @@ public class PermutationOfStringWithSpaces {
         String input = "abc";
         String output = input.substring(0,1);
 
-        //findPermutationWithSpace(input.substring(1),output);
-        findPermutationWithCaseChange(input,"");
+        findPermutationWithSpace(input.substring(1),output);
+        //findPermutationWithCaseChange(input,"");
 
     }
 

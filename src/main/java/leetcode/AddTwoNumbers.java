@@ -50,6 +50,7 @@ public class AddTwoNumbers {
     }
 
     public static Node addTwoNumbers(Node l1, Node l2) {
+        // Head of each linked list
         Node firstCurrent = l1;
         Node secondCurrent = l2;
         LinkedList resultList = new LinkedList();
