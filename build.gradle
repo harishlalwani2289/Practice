@@ -31,7 +31,8 @@ dependencies {
 group = 'com.harish.programs'
 version = '1.0-SNAPSHOT'
 description = 'Practice'
-java.sourceCompatibility = JavaVersion.VERSION_11
+java.sourceCompatibility = JavaVersion.VERSION_16
+compileJava.options.encoding = 'UTF-8'
 
 publishing {
     publications {

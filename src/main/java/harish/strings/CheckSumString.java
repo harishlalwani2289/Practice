@@ -12,7 +12,7 @@ import harish.strings.StringUtil;
  * “12243660” is a sum string.
  * Explanation : 24 + 36 = 60, 12 + 24 = 36
  * <p>
- * “1111112223” is a sum string.
+ * “1111112223" is a sum string.
  * Explanation: 111+112 = 223, 1+111 = 112
  * <p>
  * “2368” is not a sum string
