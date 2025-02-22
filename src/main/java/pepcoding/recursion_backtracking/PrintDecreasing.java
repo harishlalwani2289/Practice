@@ -1,0 +1,14 @@
+package pepcoding.recursion_backtracking;
+
+public class PrintDecreasing {
+    public static void main(String[] args) {
+        printDecreasing(12);
+    }
+
+    public static void printDecreasing(int n) {
+        if( n == 0)
+            return;
+        System.out.println(n);
+        printDecreasing(n-1);
+    }
+}

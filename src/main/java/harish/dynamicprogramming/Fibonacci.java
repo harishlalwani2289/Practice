@@ -9,6 +9,7 @@ public class Fibonacci {
     public int fib(int n) {
         if (lookUp[n] == 0) {
 
+            System.out.println("Hello " + n );
             if (n<=1)
                 lookUp[n] = n;
             else
